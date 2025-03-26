@@ -38,23 +38,43 @@ To set up and run this project, follow these steps:
     ```
 
 2. Create a virtual environment (optional but recommended):
-```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows use: venv\Scripts\activate
- ```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+      ```
 
 3. Install dependencies:
    ```bash
-    pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 4. Launch Jupyter Notebook
    ```bash
-     jupyter notebook
+   jupyter notebook
     ```
 
 Open **Breast_Cancer_detection.ipynb** to explore the analysis and model training steps.
 
 
+## Usage
+- The notebook performs Exploratory Data Analysis (EDA), preprocessing, model training, and evaluation.
+- It includes visualizations such as correlation matrices, histograms, and ROC curves.
+- The final models are compared based on metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
+
+## Results
+- **SVM (RBF Kernel)** achieved the highest accuracy and ROC-AUC score.
+- **Random Forest and Gradient Boosting** provided competitive results with high precision and recall.
+- Feature importance analysis highlighted key predictors such as "worst perimeter," "worst concave points," and "worst area."
+
+## Repository Structure
+- `README.md` - Project documentation  
+- `requirements.txt` - List of dependencies  
+- `Breast_Cancer_detection.ipynb` - Jupyter Notebook with analysis  
+- `Breast_Cancer_detection.pdf` - PDF version of the project for reference  
+
+
+
+## License
+This project is licensed under the MIT License.
 
   
