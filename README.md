@@ -33,7 +33,7 @@ To set up and run this project, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/breast-cancer-detection.git
+   git clone https://github.com/georgeTs19/breast-cancer-detection.git
    cd breast-cancer-detection
     ```
 
